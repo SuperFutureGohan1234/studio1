@@ -10,12 +10,35 @@
   </head>
   <body>
     
- When you can see this Adrian change this text.
-    
-    
-    
-    
-    
+ <!--Add your name-->
+ <h1>Slakord</h1>
+
+ <!--Will be populated with messages-->
+ <div class="allMessages">
+     
+ </div>
+ 
+ <!--For user to input messages-->
+ <div class="userContainer">
+
+     <form>
+
+         <div class="textContainer">
+
+             <div>
+                 <p>Your name:</p><input id="name" type="text">
+             </div>
+             <div>
+                 <p>Message:</p><input id="message" type="text">
+             </div>
+         </div>
+           <div class="GObutton">
+             <input type="reset" onclick="updateDB();" value="Submit/Update">
+           </div>
+
+     </form>
+
+ </div> 
     
  <script src="https://www.gstatic.com/firebasejs/5.5.5/firebase.js"></script>
  <script>
