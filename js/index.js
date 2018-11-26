@@ -22,6 +22,8 @@ function updateDB(){
     database.push(value);
 }
 
+$("#submit").click(updateDB);
+
 database.on("child_added",function(rowData){
 
     console.log(rowData.val());
