@@ -1,3 +1,6 @@
+/*GOOGLE FONTS*/
+@import url('https://fonts.googleapis.com/css?family=Hanalei+Fill|Audiowide|Bangers|Cabin+Sketch|Freckle+Face|Fredericka+the+Great|Iceland|Kumar+One+Outline|Special+Elite|Underdog|Metal+Mania|Patrick+Hand+SC');
+
 /* Write your CSS here */
 
 html,body{
@@ -6,18 +9,14 @@ html,body{
 }
 
 body{
-    background-image: url(http://www.4usky.com/data/out/20/164152918-circuit-wallpapers.jpg);
+    background-image: url(https://stmed.net/sites/default/files/schematic-wallpapers-29111-7541090.png);
 }
 
 h1{
-    /*GOOGLE FONTS*/
-    /*font-family: 'Asul', sans-serif;*/
-    /*font-family: 'Alike Angular', serif;*/
-    /*font-family: 'Eczar', serif;*/
-    font-family: 'Eczar', serif;
+    font-family: 'Audiowide', serif;
     font-size: 45px;
     margin:0;
-    color:white;
+    color: #36c2c9;
     text-align: center;
 }
 .allMessages{
@@ -25,7 +24,7 @@ h1{
     height:70%;
     margin: 0 auto;
     width: 60%;
-    border: 2px solid #12ce99;
+    border: 2px solid #36c2c9;
     background-color: #979299;
     overflow-y: scroll;
     overflow-wrap: break-word;
@@ -36,8 +35,8 @@ h1{
     height:10%;
     margin: 20px auto 0 auto;
     width: 60%;
-    border: 2px solid  #66ffc2;
-    background-color: #e6ffe6;
+    border: 2px solid  #12ce99;
+    background-color: #016d72;
 }
 
 
