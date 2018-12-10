@@ -1,38 +1,121 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
+
 <html>
+
   <head>
-    <title>Studio 1</title>
+ 
+    <title>SLAKORD</title>
+
     <meta charset="utf-8">
+
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
     <meta name="viewport" content="width=device-width, initial-scale=1">
+
     <!-- Your CSS Linked Below-->
+
     <link rel="stylesheet" href="css/index.css">
+
   </head>
+
   <body>
+
     
- When you can see this Adrian change this text.
+
+ <!--Add your name-->
+
+ <h1>Slakord</h1>
+
+
+
+ <!--Will be populated with messages-->
+
+ <div class="allMessages">
+
+     
+
+ </div>
+
+ 
+
+ <!--For user to input messages-->
+
+ <div class="userContainer">
+
+
+
+     <form>
+
+
+
+         <div class="textContainer">
+
+
+
+             <div>   
+
+                <p>Your name:</p><input id="name" type="text">
+
+             </div>
+
+             <div>
+
+                 <p>Message:</p><input id="message" type="text">
+
+             </div>
+
+         </div>
+
+           <div class="GObutton">
+
+             <input type="reset" value="Submit/Update" id="submit">
+
+           </div>
+
+
+          </form>
+
+
+        </div> 
+
     
-    
-    
-    
-    
-    
- <script src="https://www.gstatic.com/firebasejs/5.5.5/firebase.js"></script>
- <script>
+   <script src="https://www.gstatic.com/firebasejs/5.5.5/firebase.js"></script>
+
+   
+   <script>
+
+
    // Initialize Firebase
+
+
    var config = {
+
      apiKey: "AIzaSyCaXwa4p93Ay3vsoIw7Et3mFsNUxkEknUE",
+
      authDomain: "slakord-d8ded.firebaseapp.com",
+
      databaseURL: "https://slakord-d8ded.firebaseio.com",
+
      projectId: "slakord-d8ded",
+
      storageBucket: "slakord-d8ded.appspot.com",
+
      messagingSenderId: "587102458750"
+
    };
+
    firebase.initializeApp(config);
+
  </script>
+
     <!-- jQuery Linked Below-->
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
     <!-- Your Javascript Linked Below-->
+
     <script src="js/index.js" type="module" defer></script> 
+
   </body>
+
 </html>
