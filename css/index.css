@@ -1,4 +1,8 @@
+/*GOOGLE FONTS*/
+@import url('https://fonts.googleapis.com/css?family=Hanalei+Fill|Audiowide|Bangers|Cabin+Sketch|Freckle+Face|Fredericka+the+Great|Iceland|Kumar+One+Outline|Special+Elite|Underdog|Metal+Mania|Patrick+Hand+SC');
+
 /* Write your CSS here */
+<<<<<<< HEAD
  /*GOOGLE FONTS*/ 
 
 
@@ -143,3 +147,71 @@ h1{
 
  
  
+=======
+
+html,body{
+    margin:0;
+    height:100%;
+}
+
+body{
+    background-image: url(https://stmed.net/sites/default/files/schematic-wallpapers-29111-7541090.png);
+}
+
+h1{
+    font-family: 'Audiowide', serif;
+    font-size: 45px;
+    margin:0;
+    color: #36c2c9;
+    text-align: center;
+}
+.allMessages{
+    position:relative;
+    height:70%;
+    margin: 0 auto;
+    width: 60%;
+    border: 2px solid #36c2c9;
+    background-color: #979299;
+    overflow-y: scroll;
+    overflow-wrap: break-word;
+}
+
+.userContainer{
+    position:relative;
+    height:10%;
+    margin: 20px auto 0 auto;
+    width: 60%;
+    border: 2px solid  #12ce99;
+    background-color: #016d72;
+}
+
+
+.textContainer div p{
+    /*GOOGLE FONTS*/
+    /*font-family: 'Asul', sans-serif;*/
+    /*font-family: 'Alike Angular', serif;*/
+    /*font-family: 'Eczar', serif;*/
+    font-family: 'Asul', sans-serif;
+    font-size: 1em;
+    display: inline-block;
+    width:23%;
+    margin:0;
+}
+
+input{
+    width:75%;
+}
+
+.textContainer div{
+    width:100%;
+}
+
+.GObutton{
+    width:50%;
+    margin: 0 auto;
+}
+
+.GObutton input{
+    width: 100%;
+}
+>>>>>>> 0a0d554d345f53b7536f4bc0df0c3be97bcd1dda
