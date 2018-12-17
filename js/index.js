@@ -8,7 +8,8 @@ console.log('test');
 
 test();
 
-<<<<<<< HEAD
+
+
 
 
 //Set database object
@@ -57,7 +58,6 @@ database.on("child_added",function(rowData){
      $(".allMessages").append(html);
 
 
-=======
 //Set database object
 var database = firebase.database().ref();
     
@@ -86,6 +86,5 @@ database.on("child_added",function(rowData){
     var html = "<p>" + name + ":" + message + "</p>";
 
     $(".allMessages").append(html);
->>>>>>> 0a0d554d345f53b7536f4bc0df0c3be97bcd1dda
 
 });
