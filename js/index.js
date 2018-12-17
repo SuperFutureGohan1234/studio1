@@ -87,3 +87,14 @@ database.on("child_added",function(rowData){
     $(".allMessages").append(html);
 
 });
+
+$(function() {
+    $("#text").hover(
+        function() {
+            $(this).attr("src", "https://i.gifer.com/4Vvh.gif");
+        },
+        function() {
+            $(this).attr("src", "https://i.ytimg.com/vi/QCw_aAS7vWI/maxresdefault.jpg");
+        }                         
+    );                  
+});
