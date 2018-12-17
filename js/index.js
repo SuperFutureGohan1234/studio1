@@ -8,7 +8,6 @@ test();
 //Set database object
 var database = firebase.database().ref();
     
-
 //button executes this function
 function updateDB(){
     var name = $("#name").val();
